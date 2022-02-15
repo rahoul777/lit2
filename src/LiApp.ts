@@ -5,6 +5,7 @@ import './component/my-element.js';
 import './component/full-component.js';
 import './component/reactive-properties.js';
 import './component/change-detection/date-picker-element.js';
+import './component/converter.js';
 
 const logo = new URL('../../assets/open-wc-logo.svg', import.meta.url).href;
 
@@ -86,6 +87,10 @@ export class LiApp extends LitElement {
       <name-tag name="statically initialized"></name-tag>
       <hr>
       <date-picker-element></date-picker-element>
+      <hr>
+      <custom-converter></custom-converter>
+      <hr>
+      <custom-converter date="Oct 20 2021Z-08:00"></custom-converter>
       <p class="app-footer">
         🚽 Made with love by
         <a
