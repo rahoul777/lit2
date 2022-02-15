@@ -7,6 +7,7 @@ import './component/reactive-properties.js';
 import './component/change-detection/date-picker-element.js';
 import './component/converter.js';
 import './component/template-concept/expression-types.js';
+import './component/template-concept/conditional-template.js';
 
 const logo = new URL('../../assets/open-wc-logo.svg', import.meta.url).href;
 
@@ -94,6 +95,8 @@ export class LiApp extends LitElement {
       <custom-converter date="Oct 20 2021Z-08:00"></custom-converter>
       <hr>
       <expression-types></expression-types>
+      <hr>
+      <conditional-template></conditional-template>
       <p class="app-footer">
         🚽 Made with love by
         <a
