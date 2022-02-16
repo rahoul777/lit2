@@ -11,6 +11,7 @@ import './component/template-concept/conditional-template.js';
 import './component/template-concept/repeating-template.js';
 import './component/template-concept/sloting-children.js';
 import './component/template-concept/element-composition/my-page.js';
+import './component/template-concept/template-composition/my-page.js';
 
 const logo = new URL('../../assets/open-wc-logo.svg', import.meta.url).href;
 
@@ -112,6 +113,9 @@ export class LiApp extends LitElement {
       </slot-element>
       <hr>
       <my-page></my-page>
+      <hr>
+      <my-page-template></my-page-template>
+      <hr>
       <p class="app-footer">
         🚽 Made with love by
         <a
