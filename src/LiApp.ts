@@ -10,6 +10,7 @@ import './component/template-concept/expression-types.js';
 import './component/template-concept/conditional-template.js';
 import './component/template-concept/repeating-template.js';
 import './component/template-concept/sloting-children.js';
+import './component/template-concept/element-composition/my-page.js';
 
 const logo = new URL('../../assets/open-wc-logo.svg', import.meta.url).href;
 
@@ -109,6 +110,8 @@ export class LiApp extends LitElement {
         <p>Render me</p>
         <p>Render me too!</p>
       </slot-element>
+      <hr>
+      <my-page></my-page>
       <p class="app-footer">
         🚽 Made with love by
         <a
