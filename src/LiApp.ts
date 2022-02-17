@@ -14,6 +14,7 @@ import './component/template-concept/element-composition/my-page.js';
 import './component/template-concept/template-composition/my-page.js';
 
 import './directives/async-append-directive.js';
+import './directives/async-replace-directive.js';
 
 const logo = new URL('../../assets/open-wc-logo.svg', import.meta.url).href;
 
@@ -119,6 +120,9 @@ export class LiApp extends LitElement {
       <my-page-template></my-page-template>
       <hr>
       <toss-coins></toss-coins>
+      <hr>
+      <count-down-dir></count-down-dir>
+      <hr>
       <p class="app-footer">
         🚽 Made with love by
         <a
