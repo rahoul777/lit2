@@ -20,6 +20,7 @@ import './directives/class-map-directive.js';
 import './directives/if-defined-directive.js';
 import './directives/repeat-directive.js';
 import './directives/style-map-directive.js';
+import './directives/template-content-directive.js';
 
 const logo = new URL('../../assets/open-wc-logo.svg', import.meta.url).href;
 
@@ -137,6 +138,8 @@ export class LiApp extends LitElement {
       <repeat-dir></repeat-dir>
       <hr>
       <style-map-dir></style-map-dir>
+      <hr>
+      <template-content-dir></template-content-dir>
       <p class="app-footer">
         🚽 Made with love by
         <a
