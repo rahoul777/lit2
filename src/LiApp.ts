@@ -23,6 +23,7 @@ import './directives/style-map-directive.js';
 import './directives/template-content-directive.js';
 import './directives/unsafe-html-directive.js';
 import './directives/unsafe-svg-directive.js';
+import './directives/until-directive.js';
 
 const logo = new URL('../../assets/open-wc-logo.svg', import.meta.url).href;
 
@@ -146,6 +147,9 @@ export class LiApp extends LitElement {
       <unsafe-html-dir></unsafe-html-dir>
       <hr>
       <unsafe-svg-dir></unsafe-svg-dir>
+      <hr>
+      <until-dir></until-dir>
+      <hr>
       <p class="app-footer">
         🚽 Made with love by
         <a
