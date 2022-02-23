@@ -25,6 +25,8 @@ import './directives/unsafe-html-directive.js';
 import './directives/unsafe-svg-directive.js';
 import './directives/until-directive.js';
 
+import './component/to-do-app/to-do-list.js';
+
 const logo = new URL('../../assets/open-wc-logo.svg', import.meta.url).href;
 
 export class LiApp extends LitElement {
@@ -150,6 +152,7 @@ export class LiApp extends LitElement {
       <hr>
       <until-dir></until-dir>
       <hr>
+      <todo-list></todo-list>
       <p class="app-footer">
         🚽 Made with love by
         <a
